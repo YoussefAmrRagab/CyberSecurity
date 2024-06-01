@@ -1,5 +1,4 @@
-# CyberSecurity
-
+# SQL injection
 <h3>low security level</h3>
 
 - To find all tables, from a database called “dvwa”: 
